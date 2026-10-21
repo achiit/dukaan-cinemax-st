@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cinematic ST | Professional Photography & Videography</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Segoe UI',system-ui,sans-serif;background:#0d0d0f;color:#f3f3f3;line-height:1.5}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1000px;margin:0 auto;padding:0 16px}
+.hero{text-align:center;padding:56px 16px 36px;background:radial-gradient(circle at 50% 0,#3a2a0a 0,#0d0d0f 70%)}
+.hero h1{font-size:clamp(2.2rem,8vw,3.6rem);letter-spacing:2px;color:#f5b942}
+.hero p{color:#bbb;margin-top:8px}
+.stats{display:flex;justify-content:center;gap:16px;margin-top:24px;flex-wrap:wrap}
+.stat{background:#1a1a1e;border:1px solid #333;border-radius:12px;padding:14px 26px}
+.stat b{display:block;font-size:1.6rem;color:#f5b942}
+.stat span{font-size:.85rem;color:#aaa}
+.price{margin:22px auto 0;max-width:420px;background:#1a1a1e;border:1px dashed #f5b942;border-radius:12px;padding:12px;font-weight:600}
+.price div{padding:2px 0}
+section{padding:34px 0}
+h2{text-align:center;font-size:1.6rem;margin-bottom:20px;color:#f5b942}
+.owner{text-align:center}
+.owner .ph{width:min(320px,100%);aspect-ratio:1/1;height:auto;border-radius:12px;border:3px solid #f5b942;background:#222;overflow:hidden}
+.owner img{width:170px;height:170px;object-fit:cover;border-radius:50%;border:3px solid #f5b942;background:#222}
+.owner h3{margin-top:12px;font-size:1.2rem}
+.owner small{color:#aaa}
+.demos{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:14px}
+.demo{background:#1a1a1e;border:1px solid #f5b942;border-radius:14px;overflow:hidden;min-height:120px}
+.demo{display:block;text-align:center;color:#f5b942}
+.demo .play{display:block;width:100%;min-height:120px;background:none;border:0;color:#f5b942;font:inherit;font-weight:700;font-size:1.1rem;cursor:pointer;padding:24px}
+.demo .play span{display:block;font-size:2.4rem;margin-bottom:6px}
+.demo .instagram-media{margin:0 auto!important}
+.demo iframe{width:100%;height:560px;border:0;display:block;background:#000}
+.reel{background:#1a1a1e;border:1px solid #2c2c32;border-radius:14px;padding:12px;text-align:center}
+.reel h3{margin-bottom:10px;font-size:1.05rem}
+.reel video{width:100%;max-width:340px;aspect-ratio:9/16;object-fit:contain;margin:0 auto;border-radius:10px;background:#000;display:block}
+.reel iframe{width:100%;height:560px;border:0;border-radius:10px;background:#000}
+.notice{background:#241c0a;border-left:4px solid #f5b942;border-radius:8px;padding:16px;color:#f0e2bd}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+.card{background:#1a1a1e;border:1px solid #2c2c32;border-radius:14px;overflow:hidden}
+.card .img{height:180px;background:linear-gradient(135deg,#3a2a0a,#1a1a1e);display:flex;align-items:center;justify-content:center;font-size:3.5rem}
+.card img{width:100%;height:180px;object-fit:cover;display:block}
+.card .b{padding:14px}
+.card h3{font-size:1.1rem;margin-bottom:6px}
+.card p{font-size:.9rem;color:#bbb}
+.contact{text-align:center}
+.contact .name{font-size:1.1rem;margin-bottom:6px}
+.contact .num{font-size:1.4rem;font-weight:700;color:#f5b942;margin-bottom:16px}
+.btn{display:inline-block;background:#25d366;color:#fff;font-weight:700;padding:14px 30px;border-radius:30px;border:0;font-size:1rem;cursor:pointer}
+form{max-width:480px;margin:28px auto 0;text-align:left;display:grid;gap:12px}
+input,select,textarea{width:100%;padding:12px;border-radius:8px;border:1px solid #333;background:#1a1a1e;color:#fff;font:inherit}
+footer{text-align:center;padding:24px 16px;color:#888;font-size:.85rem;border-top:1px solid #222}
+
+.pk{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px;max-width:640px;margin:0 auto}
+.pkc{background:#1a1a1e;border:1px solid #f5b942;border-radius:14px;padding:22px;text-align:center}
+.pkc h3{font-size:1.1rem;margin-bottom:6px}
+.pkc .pr{font-size:2rem;font-weight:800;color:#f5b942;margin:6px 0 14px}
+.pkc .btn{padding:12px 24px}
+.call{background:#f5b942;color:#111;margin-left:8px}
+.fab{position:fixed;right:14px;bottom:14px;display:flex;flex-direction:column;gap:10px;z-index:50}
+.fab a{width:56px;height:56px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.6rem;box-shadow:0 4px 12px rgba(0,0,0,.5)}
+.fab .w{background:#25d366}.fab .c{background:#f5b942}
+.tip{max-width:640px;margin:0 auto 18px;background:#1a1a1e;border:1px solid #2c2c32;border-radius:10px;padding:12px 14px;font-size:.9rem;color:#ddd}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <h1>CINEMATIC ST</h1>
+  <p>Cinematic Photographer capturing emotions, stories &amp; timeless moments.</p>
+  <div class="stats">
+    <div class="stat"><b>1.5+ Years</b><span>Experience</span></div>
+    <div class="stat"><b>80+</b><span>Video Shoots</span></div>
+  </div>
+  <div class="price">
+    <div>30 Second Video – 500 Rupees</div>
+    <div>60+ Second Video – 1000 Rupees</div>
+  </div>
+</header>
+
+<div class="wrap">
+
+<section class="owner">
+  <iframe class="ph" src="https://drive.google.com/file/d/1p0g9EkPYI8QbIrbZFmKGu8sqT6ggWrSJ/preview" allow="autoplay" scrolling="no"></iframe>
+  <h3>Sambhav Bharat Tile</h3>
+  <small>Owner</small>
+</section>
+
+<section>
+  <h2>Packages &amp; Price</h2>
+  <div class="tip">ℹ️ <b>सूचना:</b> "Book Now" दाबल्यावर "Open in external app / Open in WhatsApp" असा मेसेज येऊ शकतो. हे पूर्णपणे सुरक्षित आहे, स्कॅम नाही. फक्त <b>"Open"</b> दाबा आणि तुम्ही थेट WhatsApp वर पोहोचाल, तिथे बुकिंग मेसेज आधीच तयार असेल.</div>
+  <div class="pk">
+    <div class="pkc"><h3>🎬 30 Second Video</h3><div class="pr">₹500</div><a class="btn bk" data-p="500 Rupees" href="#">Book Now</a></div>
+    <div class="pkc"><h3>🎞️ 60+ Second Video</h3><div class="pr">₹1000</div><a class="btn bk" data-p="1000 Rupees" href="#">Book Now</a></div>
+  </div>
+</section>
+
+<section>
+  <div class="notice">
+    <b>📢 टीप:</b> सिनेमॅटिक शूट, कार डिलिव्हरी, बर्थडे शूट, बेबी वेलकम, घरभरणी आणि लग्नकार्य व्हिडिओ — सर्व शूट उत्तम क्वालिटीमध्ये केले जातात.
+  </div>
+</section>
+
+<section>
+  <h2>Our Photography Services</h2>
+  <div class="grid">
+    <div class="card"><img src="https://achiit.github.io/dukaan-sg-editzz/images/cinematic.jpg" alt="" onerror="this.outerHTML='<div class=img>🎬</div>'"><div class="b"><h3>🎬 सिनेमॅटिक शूट</h3><p>4K iPhone व्हिडिओ, स्लो-मोशन शॉट्स आणि इंस्टाग्राम रील्स.</p></div></div>
+    <div class="card"><img src="https://achiit.github.io/dukaan-sg-editzz/images/car-delivery.jpg" alt="" onerror="this.outerHTML='<div class=img>🚗</div>'"><div class="b"><h3>🚗 कार डिलिव्हरी</h3><p>शोरूममधील अनवेलिंग व्हिडिओ, फॅमिली सेलिब्रेशन आणि म्युझिकसह रील्स.</p></div></div>
+    <div class="card"><img src="https://achiit.github.io/dukaan-sg-editzz/images/birthday.jpg" alt="" onerror="this.outerHTML='<div class=img>🎂</div>'"><div class="b"><h3>🎂 बर्थडे शूट</h3><p>डेकोरेशन, केक कटिंग, गेस्ट फोटो आणि हायलाईट्स व्हिडिओ.</p></div></div>
+    <div class="card"><img src="https://achiit.github.io/dukaan-sg-editzz/images/baby-welcome.jpg" alt="" onerror="this.outerHTML='<div class=img>👶</div>'"><div class="b"><h3>👶 बेबी वेलकम</h3><p>फुलांची सजावट, फॅमिली क्षण, क्लोज-अप्स आणि भावनिक क्लिप्स.</p></div></div>
+    <div class="card"><img src="https://achiit.github.io/dukaan-sg-editzz/images/ghar-bharni.jpg" alt="" onerror="this.outerHTML='<div class=img>🏠</div>'"><div class="b"><h3>🏠 घरभरणी</h3><p>सजवलेला दरवाजा, पूजा विधी आणि संपूर्ण सिनेमॅटिक कव्हरेज.</p></div></div>
+    <div class="card"><div class="img">💍</div><div class="b"><h3>💍 लग्नकार्य व्हिडिओ</h3><p>लग्नातील प्रत्येक सुंदर क्षणाचे सिनेमॅटिक व्हिडिओ कव्हरेज.</p></div></div>
+  </div>
+</section>
+
+<section class="contact">
+  <div class="num">WhatsApp: +91 9373608842</div>
+</section>
+
+</div>
+
+<footer>This website created by Suyog</footer>
+
+<script>
+var NUM="919373608842";
+var base="*Cinematic ST* 🎬\n✨ तुमचे खास क्षण, सिनेमॅटिक अंदाजात! ✨\nमाझे क्षण कॅमेऱ्यात कैद करायचे आहेत, कृपया बुकिंगची माहिती द्या. 🙏";
+document.querySelectorAll('.bk').forEach(function(a){
+  a.href="https://wa.me/"+NUM+"?text="+encodeURIComponent(base+"\n\n💰 "+a.dataset.p);
+  a.removeAttribute('target');
+});
+</script>
+</body>
+</html>
